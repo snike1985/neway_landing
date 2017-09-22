@@ -1,0 +1,52 @@
+.site {
+
+  &__header {
+    height: 265px;
+    padding: 20px;
+    background: #fff;
+    font-size: 24px;
+    color: #323232;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 475px;
+    text-align: center;
+    color: #fff;
+    background: #de4e16;
+    font-size: 28px;
+
+    p {
+
+    }
+  }
+}
+@media (min-width: $phone-landscape) {
+  .site {
+
+  }
+}
+@media (min-width: $tablet-portrait) {
+  .site {
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 70px 170px;
+    }
+  }
+}
+@media (min-width: $tablet-landscape) {
+  .site {
+
+  }
+}
+@media (min-width: $desktop) {
+  .site {
+
+  }
+}
+

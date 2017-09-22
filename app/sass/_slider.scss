@@ -1,0 +1,41 @@
+.slider {
+  height: calc(100vh - 740px);
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: $phone-landscape) {
+  .slider {
+
+  }
+}
+@media (min-width: $tablet-portrait) {
+  .slider {
+
+  }
+}
+@media (min-width: $tablet-landscape) {
+  .slider {
+
+  }
+}
+@media (min-width: $desktop) {
+  .slider {
+
+  }
+}
+
