@@ -21,19 +21,41 @@
         <!-- site__header -->
         <header class="site__header">
             <a href="#" class="logo"><img src="img/logo.png" alt="NeWay"></a>
-            <img src="img/header-img1.jpg" alt="Microsoft">
+            <img class="site__header-icon" src="img/header-img1.jpg" alt="Microsoft">
             <span>2017 Partner of the Year Finalist</span>
         </header>
         <!-- /site__header -->
 
         <!-- slider -->
-        <main class="slider">
+        <main class="slider" data-autosliding="4000">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url(pic/slider1.jpg)">Slide 1</div>
-                    <div class="swiper-slide" style="background-image: url(pic/slider2.jpg)">Slide 2</div>
-                    <div class="swiper-slide" style="background-image: url(pic/slider3.jpg)">Slide 3</div>
-                    <div class="swiper-slide" style="background-image: url(pic/slider4.jpg)">Slide 4</div>
+                    <div class="swiper-slide" style="background-image: url(pic/slider1.jpg)">
+                        <!-- slider__quote -->
+                        <div class="slider__quote">
+                            <span>puts data security at risk</span>
+                        </div>
+                        <!-- /slider__quote -->
+                    </div>
+                    <div class="swiper-slide sky">
+                        <img src="pic/icon3.png" alt="">
+                        Set the record straight!
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(pic/slider3.jpg)">
+                        <!-- slider__quote -->
+                        <div class="slider__quote">
+                            <span>too expensive for me</span>
+                        </div>
+                        <!-- /slider__quote -->
+                    </div>
+                    <div class="swiper-slide right" style="background-image: url(pic/slider4.jpg)">
+                        <!-- slider__quote -->
+                        <div class="slider__quote">
+                            <span>incompatible with Linux OS</span>
+                            <span>and Open Source software</span>
+                        </div>
+                        <!-- /slider__quote -->
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
