@@ -101,12 +101,7 @@
 }
 @media (min-width: $tablet-landscape) {
   .slider {
-
-  }
-}
-@media (min-width: $desktop) {
-  .slider {
-    min-height: 946px;
+    min-height: 550px;
 
     .swiper-slide {
       padding: 80px;
@@ -164,6 +159,11 @@
         letter-spacing: 1px;
       }
     }
+  }
+}
+@media (min-width: $desktop) {
+  .slider {
+
   }
 }
 

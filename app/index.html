@@ -62,16 +62,40 @@
         </main>
         <!-- /slider -->
 
-        <!-- site__footer -->
-        <footer class="site__footer">
-            <div class="footer__wrap">
+        <!-- steps -->
+        <div class="steps" data-action="php/sendData.php">
+
+            <!-- steps__item -->
+            <div class="steps__item">
                 <p>Microsoft developed Azure to help you move faster, do more, and save money along the way. </p>
                 <p>Whatever you need, Microsot Azure can provide it and help you create something amazing.</p>
                 <p>Now with a special offering to get you started.</p>
-                <a href="#">click here</a>
+                <a href="#" class="steps__next">click here</a>
             </div>
-        </footer>
-        <!-- /site__footer -->
+            <!-- /steps__item -->
+
+            <!-- steps__item -->
+            <form action="#" class="steps__item steps__item_form">
+                <p>Fll in your details and one of our representatives will contact you shortly</p>
+                <fieldset>
+                    <input type="text" name="Name" placeholder="Name" required>
+                </fieldset>
+                <fieldset>
+                    <input type="email" name="Email" placeholder="E-mail" required>
+                </fieldset>
+                <button class="steps__submit">SEND</button>
+            </form>
+            <!-- /steps__item -->
+
+            <!-- steps__item -->
+            <div class="steps__item steps__item_thanks">
+                <strong>Thank you!</strong>
+                <p>One of our representatives will contact you shortly</p>
+            </div>
+            <!-- /steps__item -->
+
+        </div>
+        <!-- /steps -->
 
     </div>
     <!-- /site -->
@@ -79,5 +103,19 @@
     <script src="js/vendors/jquery-2.2.1.min.js"></script>
     <script src="js/vendors/swiper.jquery.min.js"></script>
     <script src="js/index.min.js"></script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5XG2MK5');
+    </script>
 </body>
 </html>
